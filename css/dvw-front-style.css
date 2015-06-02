@@ -1,0 +1,79 @@
+/* 
+    Created on : May 27, 2015, 9:29:39 PM
+    Author     : Mohamed Atef
+*/
+#dvw-forecast{
+    width: 100%;
+    padding: 5px;
+}
+#dvw-forecast img{
+    border-radius: 10px;
+}
+#dvw-header{
+    text-align: center;
+}
+
+/*current-condition*/
+#dvw-current{
+    margin: 20px auto 50px;
+    width: 100%;
+}
+#dvw-current img{
+    float: right;
+    width: 50%;
+    display: block;
+}
+#dvw-current p{
+    float: left;
+    font-size: 100%;
+    padding-top: 16px;
+    width: 50%;
+}
+
+/*three days prediction*/
+#dvw-forecast ul{
+    padding-top: 25px;
+    clear: both;
+    list-style-type: none;
+    width: 100%;
+}
+#dvw-forecast ul li{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-right: 1%;
+    border-right: 1px solid;
+}
+#dvw-forecast ul li:last-child{
+    padding: 0;
+}
+#dvw-forecast ul li:last-child{
+    border: none;
+    margin-right: 0;
+}
+#dvw-forecast ul li p:first-child{
+    font-weight: bold;
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+#dvw-forecast ul li p:last-child{
+    padding-top: 19px;
+    margin-bottom: 0;
+    font-size: 100%;
+}
+#dvw-forecast ul li img{
+    width: 100%;
+}
+
+#dvw-footer{
+    margin-top: 1em;
+}
+
+/*error style*/
+.dvw-error{
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    color: #D8000C;
+    background-color: #FFBABA;
+}

@@ -1,0 +1,56 @@
+/* 
+    Created on : May 30, 2015, 7:24:56 PM
+    Author     : Mohamed Atef
+*/
+#api{
+    width: 23em;
+}
+
+#caution{
+    font-size: 85%;
+    color: #3c26a3;
+}
+
+label[for=static], label[for=dynamic], #caution{
+    font-style: italic;
+}
+
+label[for=static]{
+    color:#330000;
+}
+
+#static{
+    margin-right: 2em;
+}
+
+.static-checked{
+    text-shadow: 1px 0 rgba(234, 93, 93, 0.92);
+    font-size: 110% !important;   
+}
+
+label[for=dynamic]{
+    color:#051800;
+}
+
+.dynamic-checked{
+    text-shadow: 2px 0 rgba(55, 202, 124, 0.6);
+    font-size: 110% !important;
+}
+
+#c, #f, label[for=static], label[for=dynamic], #caution{
+    font-weight: bold;
+}
+
+#c{
+    color: #c03c1b;
+}
+
+#f{
+    color:#0c1da5;
+}
+
+.dvw-warning{
+    background-color: rgba(255, 169, 169, 0.42) !important;
+    border-color: #eb3636 !important;
+    box-shadow: 0 0 2px #eb3636 !important;
+}
